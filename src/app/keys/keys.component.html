@@ -1,0 +1,8 @@
+<div class="keys">
+     <button 
+     *ngFor ="let key of keys"
+     (click)="onClick(key)"
+     [ngClass]="key.type === 'sOp' ? 'soperand': ''" 
+     >
+     {{key.value}}</button>
+    </div>

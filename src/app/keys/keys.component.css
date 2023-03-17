@@ -1,0 +1,21 @@
+.keys{
+    border: solid black 1px;
+    width: 170px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: black;
+}
+button{
+    height: 40px;
+    color: rgb(55, 55, 71);
+    border-radius: 7px;
+    background-color: rgb(209, 203, 203);
+}
+.soperand{
+    grid-column: 3/5 ;
+    background-color: blue;
+
+}
